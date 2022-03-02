@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 import Form from './components/Form'
 
 ReactDOM.render(
-  <Form />,
+  <StrictMode>
+    <Form />
+  </StrictMode>
+  ,
   document.getElementById('root')
 );
